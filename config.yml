@@ -1,0 +1,14 @@
+#Default config for PortalKey plugin
+# if the world specified by the config doesn't exist, then it will be created
+# the first time. It will only generate normal overworld maps, though.
+
+PortalKey: 
+    # keys (items) and the worlds that they send the player to.
+    # The keys and worlds are matched up respectively (first key to first world,
+    # second key to second world, etc.)
+    # Key item IDs
+    keys:
+        - 288
+    # World names
+    worlds:
+        - Skyland

@@ -1,0 +1,22 @@
+name: PortalKey
+version: 0.1
+author: kaitoyuuki
+main: com.github.kaitoyuuki.PortalKey.PortalKey
+
+commands:
+    pk:
+        description: PortalKey base command
+        usage: /pk
+
+permissions:
+    portalkey.op:
+        description:
+        children:
+            portalkey.use: true
+            portalkey.set: true
+    portalkey.use:
+        description: allows you to use portal keys to go through nether portals to other worlds
+        default: true
+    portalkey.set:
+        description: allows you to set the corresponding keys and worlds
+        default: op
